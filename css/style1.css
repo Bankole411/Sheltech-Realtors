@@ -406,7 +406,7 @@ div #form-header{
     margin-top: 50px;
     margin-bottom: 50px;
 }
-#architect-image, #ceo-image, #ceo2-image{
+#ceo-image{
   width: 200px;
   height: 200px;
   margin: 10px 15px 10px 0;
@@ -414,14 +414,8 @@ div #form-header{
   margin-left: auto;
   margin-right: auto;
 }
-#architect-image{
-    background: url('../images/IMG_1509.JPG') no-repeat;
-}
 #ceo-image{
     background: url('../images/IMG_1478.JPG') no-repeat;
-}
-#ceo2-image{
-    background: url('../images/IMG_1502.JPG') no-repeat;
 }
 #management{
     padding-top: 20px;
