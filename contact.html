@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sheltech Realtors</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style1.css">
+  <link href="https://fonts.googleapis.com/css?family=Oxygen:400,300,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+  <header class="visible-xs">
+    <nav id="header-nav-sm" class="navbar navbar-default">
+      <div class="container">
+        <div id="navbar-head" class="navbar-header">
+          <a href="index1.html" class="pull-left visible-md visible-lg">
+            <div id="logo-img"></div>
+          </a>
+
+          <div class="navbar-brand">
+            <a href="index1.html">
+              <h1>Sheltech Realtors</h1>
+            </a>
+          </div>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav"
+            aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list-sm" class="nav navbar-nav navbar-right">
+            <li>
+              <a style="color: #18B7BE;" href="index1.html">
+                <span></span><br class="hidden-xs"> Home</a>
+                <hr>
+            </li>
+            <li>
+              <a style="color: #18B7BE;" href="aboutUs.html">
+                <span></span><br class="hidden-xs"> About Us</a>
+                <hr>
+            </li>
+            <li>
+              <a style="color: #18B7BE;" href="projects.html">
+                <span></span><br class="hidden-xs"> Projects</a>
+                <hr>
+            </li>
+            <li>
+              <a style="color: #18B7BE;" href="locations.html">
+                <span></span><br class="hidden-xs"> Listings</a>
+                <hr>
+            </li>
+            <li>
+              <a style="color: #18B7BE;" href="contact.html">
+                <span></span><br class="hidden-xs"> Contact</a>
+            </li>
+            <li id="phone-sm" class="hidden-xs">
+              <a href="tel:+234-802-318-6825">
+                <span>+234-802-318-6825</span></a>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+
+  <header class="hidden-xs">
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <a href="index1.html">
+          <h1 id="brand-name" class="brand-name">Sheltech Realtors</h1>
+        </a>
+
+        <div id="brand-name-underline"></div>
+        <div class="navbar-header hidden-md hidden-lg hidden-sm">
+          <button id="dropdown-menu" type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+            data-target="#links" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div id="contact-links" class="hidden-xs">
+          <a href="index1.html">Home</a>
+          <a href="aboutUs.html">About Us</a>
+          <a href="projects.html">Projects</a>
+          <a href="contact.html">Contact</a>
+          <a href="locations.html">Listings</a>
+          <a style="color: #18B7BE;" id="phone" href="tel:+234-802-318-6825"><span>+234-802-318-6825</span></a>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+
+
+<main>
+
+  <div id="contact-box">
+    <h1 style="color: #18B7BE;">Contact Us</h1>
+</div>
+
+
+  <div class="container">
+    <h1 id="form-header">Get in touch with us</h1>
+    <form class="row g-3" action="https://formsubmit.co/tobibankole29@gmail.com" method="POST">
+      <input type="hidden" name="_subject" value="Website form submission!">
+
+      <div class="col-md-6">
+        <label for="fname" class="form-label">Firstname</label>
+        <input name="firstName" type="text" id="fname" class="form-control" required>
+      </div>
+      <div class="col-md-6">
+        <label for="lname" class="form-label">Surname</label>
+        <input name="lastName" type="text" id="lname" class="form-control" required>
+      </div>
+      <div class="col-md-8">
+        <label for="email" class="form-label">E-mail</label>
+        <input name="email" type="email" id="email" class="form-control" required>
+      </div>
+      <div class="col-md-4">
+        <label for="phone-number" class="form-label">Phone Number</label>
+        <input name="phoneNumber" type="text" id="phone-number" class="form-control" required>
+      </div>
+      <div class="col-md-11">
+        <label for="message" class="form-label">Type a message</label>
+        <textarea name="message" id="message" class="form-control"></textarea>
+      </div>
+      <div id="state-dropdown" class="col-md-1">
+        <select name="state" placeholder="State">
+          <option value="none">None</option>
+          <option value="lagos">Lagos</option>
+          <option value="ogun">Ogun</option>
+          <option value="abuja">Abuja</option>
+          <option value="Lagos">Lagos</option>
+          <option value="oyo">oyo</option>
+          <option value="rivers">Rivers</option>
+        </select>
+      </div>
+      <div class="col-md-12">
+        <button type="submit" name="submit">Send!</button>
+      </div>
+
+    </form>
+  </div>
+
+</main>
+
+
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row no-gutters">
+        <section id="footer-left" class="col-sm-4">
+          <span id="contact-footer">Contact</span><br>
+          <span id="float">
+            <img src="./images/map-marker.svg" alt="" style="width: 30px; color: rgb(95, 95, 95);">
+            39, Wale Taiwo close,Ogba, Ikeja Lagos Nigeria</span><br>
+         <a id="phone1" href="tel:+234-802-318-6825" class="glyphicon glyphicon-phone"> Tel: 0802-318-6825, </a><a id="phone2" href="tel:+234-816-346-9176"> +234-816-346-9176</a><br>
+          <a href="mailto:sheltechrealtors@gmail.com"><span class="glyphicon glyphicon-envelope"> Sheltechrealtors@gmail.com</span><br></a>
+          <hr class="visible-xs">
+        </section>
+        <section id="footer-middle" class="col-sm-4">
+          <span id="hours-footer">Hours:</span><br>
+         <p id="">Mon-Fri: 8:00am - 5:00pm<br>
+          Saturday: 8:00am - 2:30pm<br>
+          Sunday Closed</p>
+
+          <hr class="visible-xs">
+        </section>
+        <section id="footer-right" class="col-sm-4">
+          <a href="contact.html"><span class="back-to-top glyphicon glyphicon-arrow-up"> Back to Top!</span></a><br>
+        </section>
+      </div>
+    </div>
+     
+  </footer>
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
