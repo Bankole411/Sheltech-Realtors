@@ -232,6 +232,17 @@ body{
 
 /**  Footer   **/
 
+#page-container{
+    position: relative;
+    min-height: 100vh;
+}
+
+#formSubmit-footer{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
 footer a{
     text-decoration: none;
     color:  rgb(95, 95, 95);;
@@ -293,8 +304,11 @@ footer a:hover{
 }
 
 /*********Contact Us*************/
-#state-dropdown.col-md-1{
+#state-dropdown.col-md-2{
     margin-top: 80px;
+}
+#state-dropdown select:hover{
+    cursor: pointer;
 }
 form div{
     margin-top: 30px;
@@ -323,7 +337,7 @@ form{
     margin-bottom: 20px;
 }
 #message{
-    max-width: 1060px;
+    max-width: 970px;
     max-height: 700px;
     min-height: 50px;
 }
@@ -642,7 +656,7 @@ div #form-header{
     .panel-footer,#footer-right{
         text-align: center;
     }
-    #state-dropdown.col-md-1{
+    #state-dropdown.col-md-2{
         margin-top: 30px;
     }
     #about-box{
@@ -776,7 +790,7 @@ div #form-header{
     .panel-footer,#footer-right{
         text-align: center;
     }
-    #state-dropdown.col-md-1{
+    #state-dropdown.col-md-2{
         margin-top: 40px;
     }
     form{
@@ -905,7 +919,7 @@ div #form-header{
      #phone1, #footer-left a, #footer-middle p,#float{
         font-size: 10px;
     }
-    #state-dropdown.col-md-1{
+    #state-dropdown.col-md-2{
         margin-top: 50px;
     }
     form{
