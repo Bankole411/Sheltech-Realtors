@@ -1,0 +1,1229 @@
+body{
+    background-color: #ffffff;
+}
+
+#navbar-head{
+    position: relative;
+}
+
+.navbar-brand {
+    padding-top: 17px;
+    position: absolute;
+    margin-left: auto;
+    margin-left: 37.5%;
+    margin-right: 37.5%;
+  }
+
+#nav-list-sm a {
+    color: black;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+  }
+  
+#nav-list-sm a:hover {
+    color: #720000;
+    font-weight: bold;
+    font-size: 24px;
+  }
+
+.navbar-brand h1 { 
+    font-family:  'Berlin Sans FB Demi', sans-serif;
+    color: black;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    text-align: center;
+  }
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+
+  #header-nav-sm {
+    background-color: #ffffff;
+    border-radius: 0;
+    border: 0;
+}
+
+#header-nav {
+    background-color: #ffffff;
+    border-radius: 0;
+    border: 0;
+}
+
+#brand-name {
+    font-family:  'Berlin Sans FB Demi', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.container a:hover {
+    text-decoration: none;
+}
+
+#brand-name-underline{
+    height: 2px;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+#links, #contact-links, #aboutUs-links, #listings-links{
+    text-align: center;
+    font-size: 12px;
+}
+
+#links a, #contact-links a, #aboutUs-links a, #listings-links a{
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+}
+
+#links a:hover{
+    font-size: 24px;
+    color: #720000;
+}
+
+
+
+#phone a { /* Phone number */
+    text-align: right;
+    padding-bottom: 0;
+  }
+
+
+#welcome-image {
+    width: 100%;
+    height: 100%; 
+    object-fit: contain;
+}
+
+#box1{
+    position:relative;
+}
+
+#box2{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+
+
+#box1 #welcome-image{
+    display: flex;
+    justify-content: center;
+}
+
+#box1-1{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: rgba(0, 0, 0, 0.507);
+    width: 50%;
+    height: 100%;
+}
+
+#main-name{
+    text-align: center;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50%;
+}
+
+#main-slogan{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#main-h1{
+    text-align: center;
+    color: black;
+    font-family: cursive;
+}
+
+#main-intro{
+    text-align: center;
+    color: black;
+    font-family: cursive;
+}
+
+#image1 {
+    width: 100%;
+    height: 100%; 
+    object-fit: contain;
+}
+
+/* Services Tiles*/
+#construction-management,#construction-planning,#building-maintenance{
+    height: 400px;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#construction-management:hover,#construction-planning:hover,#building-maintenance:hover{
+    box-shadow: 0 1px 45px 15px black;
+}
+
+#construction-management{
+        background: url('../images/pexels-pixabay-276554.jpg') no-repeat;
+        background-position: center;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+}
+
+#construction-planning{
+    background: url('../images/pexels-david-mcbee-1546168.jpg') no-repeat;
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#building-maintenance{
+    background: url('../images/pexels-binyamin-mellish-1396122.jpg') no-repeat;
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#map-tile{
+    height: 400px;
+    margin-bottom: 100px;
+    position: relative;
+    border: 2px solid black;
+    overflow: hidden;
+}
+
+#construction-management h1,#construction-planning h1,#building-maintenance h1{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 4.6vm;
+    text-transform: uppercase;
+    color: black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 25px;
+    font-family:  'Berlin Sans FB Demi', sans-serif;
+  }
+
+#service-tiles{
+    background-color: #222;
+    margin-bottom: 100px;
+}
+
+
+
+/**  Footer   **/
+
+footer a{
+    text-decoration: none;
+    color:  rgb(95, 95, 95);;
+}
+
+footer a:hover{
+    color: rgb(61, 60, 60);
+}
+
+.panel-footer {
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #222;
+    border-top: 0;
+    text-transform: uppercase ;
+  }
+
+#footer-right .back-to-top .glyphicon-arrow-up{
+    padding: 0 0 0 20px;
+    color: rgb(95, 95, 95);
+    font-family: Canela,sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    letter-spacing: .31px;
+} 
+
+#footer-middle{
+    text-align: center;
+}
+
+#footer-right{
+    text-align: right;
+}
+
+#footer-left, #footer-right,#footer-middle{
+    line-height: 3;
+}
+
+#footer-left #contact-footer,#footer-middle #hours-footer{
+    font-size: 25px;
+    color: rgb(95, 95, 95);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.panel-footer .glyphicon-location,#footer-middle p{
+    font-size: small;
+    line-height: 1.4;
+    color: rgb(95, 95, 95);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#float{
+    font-size: small;
+    line-height: 1.4;
+    color: rgb(95, 95, 95);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 10px;
+}
+
+/*********Contact Us*************/
+#state-dropdown.col-md-1{
+    margin-top: 80px;
+}
+form div{
+    margin-top: 30px;
+}
+form div label, div #form-header{
+    color: black;  
+}
+input[type=text],input[type=email], #message, button[type=submit], #state-dropdown select{
+    color: black;
+    font-size: large;
+}
+#form-header{
+    color: black;
+    text-align: center;
+}
+button[type="submit"]{
+    background-color: black;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding:20px;
+    border-radius: 4px;
+    color: #ffffff;
+}
+form{
+    margin-bottom: 20px;
+}
+#message{
+    max-width: 1060px;
+    max-height: 700px;
+    min-height: 50px;
+}
+#contact-box{
+    height: 300px;
+    background: url('../images/light-bulb-4514505_1920.jpg');
+}
+#contact-box h1{
+    margin-top: auto;
+    margin-bottom: auto;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+}
+div #form-header{
+    margin-top: 100px;
+}
+
+
+
+/*********About Us*************/
+
+#about-contact-btn{
+    background-color: black;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+#about-box, #about-image, #contact-box, #listings-box{
+    display: flex;
+    justify-content: center;
+}
+
+#about-box{
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#about-box h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+}
+
+#about-box3{
+    color: black;
+}
+#box3 #box3-1 p, #box3 #box3-1 h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#box3-1 p{
+    color: black;
+}
+#box3-1{
+    margin-bottom: 30px;
+}
+#box3-2 p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#box4-1 div img{
+    width: 250px;
+    border-radius: 50%;
+}
+#box4-2{
+    height: 100%;
+    background-color: #222;
+    border-radius: 25px;
+}
+#side-contact{
+    border-radius: 25px;
+    background-color: #720000;
+}
+#management{
+    background-color: #222;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#ceo-image{
+  width: 200px;
+  height: 200px;
+  margin: 10px 15px 10px 0;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#ceo-image{
+    background: url('../images/IMG_1478.JPG') no-repeat;
+}
+#management{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+#management h1, #management h2{
+    color: black;
+}
+
+
+/****** Listings  ******/
+
+#listings-image{
+    width: 100%;
+    height: 100%;
+}
+#listings-box{
+    height: 300px;
+    background: url('../images/pexels-tirachard-kumtanom-347152.jpg');
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+}
+#listings-box h1{
+    margin-top: auto;
+    margin-bottom: auto;
+    color: black;
+    font-size: 50px;
+}
+.listings-main-div{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    margin-top: 100px;
+}
+.listings-status{
+    background-color: #720000;
+    padding: 15px;
+    position: absolute;
+    left: 0;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.listings-info{
+    background-color: #222;
+    border-radius: 5px;
+    color: black;
+    position: relative;
+    margin-bottom: 1em;
+    margin-left: auto;
+}
+.listings-map{
+    border-radius: 5px;
+    position: relative;
+    border: 2px solid black;
+    overflow: hidden;
+    padding: 0;
+    margin-left: 2em;
+    margin-bottom: 1em;
+    margin-right: auto;
+}
+.listing-list{
+    margin-bottom: 5em;
+}
+.listings-info > h1{
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+.listings-info > p{
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    font-size: 24px;
+
+}
+.listings-info > address{
+    margin-bottom: 0.5em;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+@media(max-width:400px){
+    #image1{
+        margin-top: 50px;
+    }
+    #construction-management h1,#construction-planning h1,#building-maintenance h1{
+        font-size: 12px;
+    }
+    #phone1, #footer-left a, #footer-middle p,#float, #footer-left a span{
+        font-size: 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    #about-box{
+        background-position: center;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        text-align: center;
+    }
+    #about-box h1{
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+    #about-box3{
+        margin-top: 30px;
+    }
+    #box3 #box3-1 h1{
+        font-size: 20px;
+    }
+    #box3 #box3-1 p{
+        font-size: 30px;
+    }
+    #box3-2 p{
+        font-size: 18px;
+    }
+    #about-core-values h1{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 40px;
+        text-align: center;
+        color: black;
+    }
+    #about-core-values p{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        text-align: center;
+        color: black;
+    }
+    #about-core-values h2{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 35px;
+        text-align: center;
+        color: black;
+    }
+    #about-core-values{
+        margin-top: 50px;
+    }
+    #box4-1 div img{
+        width: 67.5px;
+        border-radius: 50%;
+    }
+    #box4{
+        text-align: center;
+    }
+    #box4-2 div img{
+        width: 56px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+    #side-contact{
+        border: 2px solid #222;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    #box4-2 #side-contact #support{
+        margin-bottom: 20px;
+        color: #000;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 35px;
+    }
+    #box4-2 #side-contact h2{
+        color: #000;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+    #form-header{
+        font-size: 25px;
+    }
+    #management{
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+    .listings-info,.listings-map{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    .listings-main-div{
+        flex-wrap: wrap;
+    }
+}
+  
+@media (max-width:699px){
+    #image1{
+        margin-top: 50px;
+    }
+    #main-name{
+        font-size: 25px;
+    }
+    #main-slogan{
+        font-size: 9px;
+    }
+    #brand-name{
+        font-size: small;
+    }
+    #main-h1{
+        font-size: 25px;
+    }
+    #main-intro{
+        font-size: smaller;
+        margin-bottom: 20px;
+    }
+    #construction-management,#construction-planning,#building-maintenance{
+        height: 250px;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #construction-management h1,#construction-planning h1,#building-maintenance h1{
+        font-size: 15px;
+    }
+    #service-tiles .container{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    #map-tile{
+        margin-top: 30px;
+    }
+    .panel-footer,#footer-right{
+        text-align: center;
+    }
+    #state-dropdown.col-md-1{
+        margin-top: 30px;
+    }
+    #about-box{
+        background-position: center;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    #about-box h1{
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+    #about-box3{
+        margin-top: 40px;
+    }
+    #box3 #box3-1 h1{
+        font-size: 25px;
+    }
+    #box3 #box3-1 p{
+        font-size: 35px;
+    }
+    #box3-2 p{
+        font-size: 18px;
+    }
+    #about-core-values h1{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 40px;
+        text-align: center;
+        color: black;
+    }
+    #about-core-values p{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        text-align: center;
+        color: black;
+    }
+    #about-core-values h2{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 43px;
+        text-align: center;
+        color: black;
+    }
+    #box4{
+        text-align: center;
+    }
+    #about-core-values{
+        margin-top: 50px;
+    }
+    #box4-2 div img{
+        width: 56px;
+        margin-top: 45px;
+        margin-bottom: 20px;
+    }
+    #side-contact{
+        border: 2px solid #222;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    #box4-2 #side-contact #support{
+        margin-bottom: 20px;
+        color: #000;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    #box4-2 #side-contact h2{
+        color: #000;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+    #form-header{
+        font-size: 30px;
+    }
+    #management{
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+    .listings-info,.listings-map{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    .listings-main-div{
+        flex-wrap: wrap;
+    }
+}
+
+
+
+@media (min-width:700px) and (max-width:767px){
+    #header-nav{
+        height: 90px;
+    }
+    #brand-name-underline{
+        width:70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .brand-name{
+        font-size: medium;
+    }
+    #main-name{
+        font-size: 35px;
+    }
+    #main-slogan{
+        font-size: smaller;
+    }
+    #main-intro{
+        margin-bottom: 10px;
+    }
+    #construction-management,#construction-planning,#building-maintenance{
+        height: 250px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #construction-management span,#construction-planning span,#building-maintenance span{
+        font-size: smaller;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    #service-tiles .container{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    #map-tile{
+        margin-top: 50px;
+    }
+    .panel-footer,#footer-right{
+        text-align: center;
+    }
+    #state-dropdown.col-md-1{
+        margin-top: 40px;
+    }
+    form{
+        margin-bottom: 30px;
+    }
+    #about-box{
+        background-position: center;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    #about-box h1{
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+    #about-box3{
+        margin-top: 50px;
+    }
+    #box3 #box3-1 h1{
+        font-size: 25px;
+    }
+    #box3 #box3-1 p{
+        font-size: 40px;
+    }
+    #box3-2 p{
+        font-size: 20px;
+    }
+    #about-core-values h1{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 40px;
+        text-align: center;
+        color: black;
+    }
+    #about-core-values p{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        text-align: center;
+        color: black;
+    }
+    #about-core-values h2{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 55px;
+        text-align: center;
+        color: black;
+    }
+    #about-core-values{
+        margin-top: 60px;
+    }
+    #box4{
+        text-align: center;
+    }
+    #box4-2 div img{
+        width: 56px;
+        margin-top: 45px;
+        margin-bottom: 20px;
+    }
+    #side-contact{
+        border: 2px solid #222;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    #box4-2 #side-contact #support{
+        margin-bottom: 20px;
+        color: #000;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    #box4-2 #side-contact h2{
+        color: #000;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+    #form-header{
+        font-size: 40px;
+    }
+    #management{
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+    .listings-info,.listings-map{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    .listings-main-div{
+        flex-wrap: wrap;
+    }
+}
+
+
+@media (min-width:768px) and (max-width:991px){
+    #header-nav{
+        height: 100px;
+    }
+    #brand-name-underline{
+        width:90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .brand-name{
+        font-size:large;
+    }
+    #main-name{
+        font-size: 55px;
+        padding-bottom: 20px;
+    }
+    #construction-management span,#construction-planning span,#building-maintenance span{
+        font-size: smaller;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #service-tiles .container{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    #map-tile{
+        margin-top: 45px;
+    }
+    #footer-right a{
+        font-size: 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+     #phone1, #footer-left a, #footer-middle p,#float{
+        font-size: 10px;
+    }
+    #state-dropdown.col-md-1{
+        margin-top: 50px;
+    }
+    form{
+        margin-bottom: 40px;
+    }
+    #about-box{
+        background-position: center;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    #about-box h1{
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+    #about-box3{
+        margin-top: 50px;
+    }
+    #box3 #box3-1 h1{
+        font-size: 25px;
+    }
+    #box3 #box3-1 p{
+        font-size: 35px;
+    }
+    #box3-2 p{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    #box3-1 h1, #box3-1 p{
+        margin-left: 15px;
+    }
+    #box3-2 p{
+        margin-right: 15px;
+    }
+    #about-core-values h1{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 40px;
+        text-align: center;
+        color: black;
+    }
+    #about-core-values p{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        text-align: center;
+        color: black;
+        margin-bottom: 40px;
+    }
+    #about-core-values h2{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 55px;
+        text-align: center;
+        color: black;
+    }
+    #about-core-values{
+        margin-top: 60px;
+    }
+    #box4{
+        text-align: center;
+    }
+    #box4-2 div img{
+        width: 56px;
+        margin-top: 45px;
+        margin-bottom: 20px;
+    }
+    #side-contact{
+        border: 2px solid #222;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    #box4-2 #side-contact #support{
+        margin-bottom: 20px;
+        color: #000;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    #box4-2 #side-contact h2{
+        color: #000;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+    #message{
+        min-width: 600px;
+    }
+    #form-header{
+        font-size: 45px;
+    }
+    #management{
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+}
+
+
+@media (min-width:992px) and (max-width:1199px){
+    #header-nav{
+        height: 110px;
+    }
+    #brand-name-underline{
+        width:90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .brand-name{
+        font-size:25px;
+    }
+    #main-name{
+        font-size: 75px;
+    }
+    #service-tiles .container{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    #map-tile{
+        margin-top: 50px;
+    }
+    #phone1, #footer-left a,#float{
+        font-size: smaller;
+    }
+    #footer-right a{
+        font-size: 20px;
+    }
+    form{
+        margin-bottom: 50px;
+    }
+    #about-box{
+        background-position: center;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    #about-box h1{
+        padding-top: 250px;
+        padding-bottom: 250px;
+    }
+    #about-box3{
+        margin-top: 60px;
+    }
+    #box3 #box3-1 h1{
+        font-size: 25px;
+    }
+    #box3 #box3-1 p{
+        font-size: 35px;
+    }
+    #box3-2 p{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    #box3-1 h1, #box3-1 p{
+        margin-left: 15px;
+    }
+    #box3-2 p{
+        margin-right: 15px;
+    }
+    #about-core-values h1{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 40px;
+        text-align: center;
+        color: black;
+    }
+    #about-core-values p{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        text-align: center;
+        color: black;
+        margin-bottom: 50px;
+    }
+    #about-core-values h2{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 55px;
+        text-align: center;
+        color: black;
+    }
+    #about-core-values{
+        margin-top: 70px;
+    }
+    #box4{
+        text-align: center;
+    }
+    #box4-2 div img{
+        width: 56px;
+        margin-top: 45px;
+        margin-bottom: 20px;
+    }
+    #side-contact{
+        border: 2px solid #222;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    #box4-2 #side-contact #support{
+        margin-bottom: 20px;
+        color: #000;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    #box4-2 #side-contact h2{
+        color: #000;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+    #message{
+        min-width: 600px;
+    }
+    #form-header{
+        font-size: 45px;
+    }
+    #management{
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+}
+
+@media (min-width:1200px){
+    #header-nav{
+        height: 118px;
+    }
+    #main-name{
+        font-size: 85px;
+    }
+    #main-intro{
+        font-size: 20px;
+    }
+    #service-tiles .container{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    #map-tile{
+        margin-top: 50px;
+    }
+    form{
+        margin-bottom: 40px;
+    }
+    #about-box{
+        background-position: center;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    #about-box h1{
+        padding-top: 250px;
+        padding-bottom: 250px;
+    }
+    #about-box3{
+        margin-top: 60px;
+    }
+    #box3 #box3-1 h1{
+        font-size: 25px;
+    }
+    #box3 #box3-1 p{
+        font-size: 35px;
+    }
+    #box3-2 p{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    #box3-1 h1, #box3-1 p{
+        margin-left: 25px;
+    }
+    #box3-2 p{
+        margin-right: 25px;
+    }
+    #about-core-values h1{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 40px;
+        text-align: center;
+        color: black;
+    }
+    #about-core-values p{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        text-align: center;
+        color: black;
+        margin-bottom: 50px;
+    }
+    #about-core-values h2{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 55px;
+        text-align: center;
+        color: black;
+    }
+    #about-core-values{
+        margin-top: 75px;
+    }
+    #box4{
+        text-align: center;
+    }
+    #box4-2 div img{
+        width: 56px;
+        margin-top: 45px;
+        margin-bottom: 20px;
+    }
+    #side-contact{
+        border: 2px solid #222;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    #box4-2 #side-contact #support{
+        margin-bottom: 20px;
+        color: #000;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    #box4-2 #side-contact h2{
+        color: #000;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+    #message{
+        min-width: 600px;
+    }
+    #form-header{
+        font-size: 45px;
+    }
+    #management{
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    
+}
