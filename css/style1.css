@@ -169,7 +169,7 @@ a:hover{
 
 /* Services Tiles*/
 #construction-management,#construction-planning,#building-maintenance{
-    height: 400px;
+    height: 300px;
     margin-bottom: 15px;
     position: relative;
     border: 2px solid black;
@@ -189,7 +189,7 @@ a:hover{
 }
 
 #construction-planning{
-    background: url('../images/pexels-david-mcbee-1546168.jpg') no-repeat;
+    background: url('../images/pexels-pixabay-210617.jpg') no-repeat;
     background-position: center;
     width: 100%;
     background-repeat: no-repeat;
@@ -310,7 +310,7 @@ span.project-svgs{
 }
 
 #image-box img {
-    width: 70%;
+    width: 90%;
     height: 100%;
     object-fit: contain;
     margin-bottom: 80px;
@@ -321,7 +321,6 @@ span.project-svgs{
 }
 
 #project-info{
-    margin-top: 35px;
     margin-bottom: 35px;
 }
 
@@ -329,14 +328,14 @@ span.project-svgs{
     margin-bottom: 50px;
 }
 
-#grid-1, #grid-4{
+.grid-1, .grid-4{
     width: 100%;
     height: 100%;
     object-fit: contain;
     margin-bottom: 40px;
 }
 
-#grid-2, #grid-3{
+.grid-2, .grid-3{
     margin-bottom: 40px;
 }
 
@@ -475,7 +474,7 @@ div #form-header{
 #about-contact-btn{
     background-color: black;
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     border-radius: 3px;
     color: #ffffff;
     text-decoration: none;
@@ -527,9 +526,25 @@ div #form-header{
     background-color: #720000;
 }
 #management{
-    background-color: #222;
+    background-color: rgba(34, 34, 34, 0.884);
     margin-top: 50px;
     margin-bottom: 50px;
+    color: black;
+}
+.management-staff{
+    text-align: left;
+    margin-bottom: 80px;
+}
+.management-staff h1{
+    font-size: 20px;
+    color: #720000;
+}
+.management-staff h2{
+    font-weight: bold;
+    margin-top: 10px;
+}
+.management-staff p{
+    line-height: 1.6;
 }
 #ceo-image{
   width: 200px;
@@ -546,9 +561,6 @@ div #form-header{
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
-}
-#management h1, #management h2{
-    color: black;
 }
 
 
@@ -587,7 +599,7 @@ div #form-header{
     font-weight: bold;
 }
 .listings-info{
-    background-color: #222;
+    background-color: rgba(34, 34, 34, 0.884);
     border-radius: 5px;
     color: black;
     position: relative;
@@ -657,6 +669,21 @@ div #form-header{
 }
 
 @media(max-width:400px){
+    #project-info{
+        margin-top: 100px;
+    }
+    #box4-2{
+        padding: 15px 40px;
+    }
+    .management-staff{
+        text-align: center;
+    }
+    .management-staff p{
+        padding: 15px;
+    }
+    #client2-svg{
+        max-width: 280px;
+    }
     #client2-hero{
         height: 200px;
         margin-bottom: 0;
@@ -666,10 +693,6 @@ div #form-header{
         position: absolute; 
         top: 50%;
         margin: 0;
-    }
-    #project-info.col-lg-6.col-sm-6.col-md-6{
-        text-align: center;
-        margin-top: 0;
     }
     .project-landing-title{
         font-size: 15px;
@@ -684,26 +707,20 @@ div #form-header{
     }
     #client1-hero{
         margin-bottom: 0;
+        position: relative;
+        height: 200px;
     }
-    #grid-2, #grid-3{
+    #client1-hero h1{
+        margin-bottom: 0;
+        position: absolute;
+        top: 50%;
+    }
+    .grid-2, .grid-3{
         width: 100%;
         height: 100%;
         object-fit: contain;
         margin-bottom: 40px;
     }
-    .navbar-brand {
-        word-wrap: break-word;
-        position: absolute;
-        padding-left: 0;
-        margin-left: 0;
-        max-width: 150px;
-        text-align: left;
-      }
-    .navbar-brand h1{
-        padding-left: 15px;
-        margin-left: 0;
-        text-align: left;
-      }
     #image1{
         margin-top: 50px;
     }
@@ -783,8 +800,6 @@ div #form-header{
     }
     #side-contact{
         border: 2px solid #222;
-        margin-top: 100px;
-        margin-bottom: 100px;
         text-align: center;
     }
     #box4-2 #side-contact #support{
@@ -817,6 +832,18 @@ div #form-header{
 }
   
 @media (max-width:699px){
+    #box4-2{
+        padding: 15px 40px;
+    }
+    .management-staff{
+        text-align: center;
+    }
+    .management-staff p{
+        padding: 15px;
+    }
+    #client2-svg{
+        width: 363.33px;
+    }
     #client2-hero{
         height: 200px;
         margin-bottom: 0;
@@ -827,12 +854,23 @@ div #form-header{
         top: 50%;
         margin: 0;
     }
+    #client1-hero{
+        margin-bottom: 0;
+        position: relative;
+        height: 200px;
+    }
+    #client1-hero h1{
+        margin-bottom: 0;
+        position: absolute;
+        top: 50%;
+    }
     .project-landing-title{
         font-size: 15px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
     #project-info{
         text-align: center;
+        margin-top: 100px;
     }
     #image-box img{
         width: 100%;
@@ -841,10 +879,7 @@ div #form-header{
     #image-board{
         margin-top: 0;
     }
-    #client1-hero{
-        margin-bottom: 50px;
-    }
-    #grid-2, #grid-3{
+    .grid-2, .grid-3{
         width: 100%;
         height: 100%;
         object-fit: contain;
@@ -862,6 +897,7 @@ div #form-header{
         padding-left: 15px;
         margin-left: 0;
         text-align: left;
+        line-height: 1.01;
       }
     #image1{
         margin-top: 50px;
@@ -966,10 +1002,6 @@ div #form-header{
     }
     #side-contact{
         border: 2px solid #222;
-        margin-top: 100px;
-        margin-bottom: 100px;
-        padding-top: 50px;
-        padding-bottom: 50px;
         text-align: center;
     }
     #box4-2 #side-contact #support{
@@ -1003,6 +1035,32 @@ div #form-header{
 
 
 @media (min-width:700px) and (max-width:767px){
+    #box4-2{
+        padding: 15px 40px;
+    }
+    .management-staff{
+        text-align: center;
+    }
+    .management-staff p{
+        padding: 15px;
+    }
+    .navbar-brand {
+        word-wrap: break-word;
+        position: absolute;
+        padding-left: 0;
+        margin-left: 0;
+        max-width: 150px;
+        text-align: left;
+      }
+    .navbar-brand h1{
+        padding-left: 15px;
+        margin-left: 0;
+        text-align: left;
+        line-height: 1.1;
+      }
+    #client2-svg{
+        width: 563.33px;
+    }
     #client2-hero{
         height: 200px;
         margin-bottom: 0;
@@ -1019,6 +1077,7 @@ div #form-header{
     }
     #project-info{
         text-align: center;
+        margin-top: 100px;
     }
     #image-box img{
         width: 100%;
@@ -1030,7 +1089,7 @@ div #form-header{
     #client1-hero{
         margin-bottom: 30px;
     }
-    #grid-2, #grid-3{
+    .grid-2, .grid-3{
         width: 100%;
         height: 100%;
         object-fit: contain;
@@ -1150,10 +1209,6 @@ div #form-header{
     }
     #side-contact{
         border: 2px solid #222;
-        margin-top: 100px;
-        margin-bottom: 100px;
-        padding-top: 50px;
-        padding-bottom: 50px;
         text-align: center;
     }
     #box4-2 #side-contact #support{
@@ -1186,6 +1241,9 @@ div #form-header{
 
 
 @media (min-width:768px) and (max-width:991px){
+    .management-staff{
+        min-width: 700px;     
+    }
     #client2-hero{
         margin-bottom: 80px;
     }
@@ -1323,6 +1381,12 @@ div #form-header{
 
 
 @media (min-width:992px) and (max-width:1199px){
+    .management-staff{
+        min-width: 800px;     
+    }
+    .management-staff{
+        min-width: 900px;     
+    }
     #client2-hero{
         margin-bottom: 80px;
     }
@@ -1445,6 +1509,9 @@ div #form-header{
 }
 
 @media (min-width:1200px){
+    .management-staff{
+        min-width: 1000px;     
+    }
     #client2-hero{
         margin-bottom: 80px;
     }
