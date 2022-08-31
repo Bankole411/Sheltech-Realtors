@@ -67,6 +67,7 @@ a:hover{
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
+    font-size:20px;
 }
 
 .container a:hover {
@@ -88,7 +89,7 @@ a:hover{
     color: black;
     padding-left: 10px;
     padding-right: 10px;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 #links a:hover{
@@ -415,8 +416,11 @@ footer a:hover{
 }
 
 /*********Contact Us*************/
-#state-dropdown.col-md-2{
+#state-dropdown.col-md-2, input#myFile{
     margin-top: 80px;
+}
+input#myFile{
+    margin-top: 30px;
 }
 #state-dropdown select:hover{
     cursor: pointer;
@@ -509,8 +513,11 @@ div #form-header{
 #box3-1{
     margin-bottom: 30px;
 }
-#box3-2 p{
+#box3-2 p, #box3-2 li, .management-staff p, .management-staff li{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.management-staff li{
+    margin-top: 15px;
 }
 #box4-1 div img{
     width: 250px;
@@ -637,6 +644,65 @@ div #form-header{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+/**** Careers ****/
+.career-specifications div{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    color: black;
+}
+.career-specifications div:hover{
+    background-color: #000;
+    color: #ffffff;
+}
+.career-specifications h4{
+    font-size: 25px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+}
+.career-specifications p{
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+.container.careers h1{
+    margin-bottom: 20px;
+    max-width:400px;
+    color: black;
+}
+.container.careers h5{
+    margin-bottom: 20px;
+    max-width:500px;
+    line-height: 1.2;
+    font-size: 18px;
+    color: black;
+}
+.container.careers{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.apply-btn{
+    padding-left: 0;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: black;
+    color: #ffffff;
+    border-radius: 5px;
+}
+.apply-btn:hover{
+    padding: 15px;
+    background-color: #720000;
+}
+.career-specification-span{
+    max-width:500px;
+    line-height: 1.2;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+.career-specification-span p, .career-specification-span ul{
+    max-width:500px;
+    margin-top: 15px;
+}
 
 
 @media(min-height:600px){
@@ -669,6 +735,20 @@ div #form-header{
 }
 
 @media(max-width:400px){
+    .container.careers{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    div.row.careers{
+        padding-left: 15px;
+    }
+    .navbar-brand{
+        padding-top: 8px;
+        max-width: 130px;
+    }
+    .navbar-brand h1{
+        font-size: 9px;
+    }
     #project-info{
         margin-top: 100px;
     }
@@ -762,7 +842,7 @@ div #form-header{
     #box3 #box3-1 p{
         font-size: 30px;
     }
-    #box3-2 p{
+    #box3-2 p, #box3-2 li, .management-staff p, .management-staff li{
         font-size: 18px;
     }
     #about-core-values h1{
@@ -832,6 +912,10 @@ div #form-header{
 }
   
 @media (max-width:699px){
+    div.row.careers{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
     #box4-2{
         padding: 15px 40px;
     }
@@ -889,8 +973,9 @@ div #form-header{
         word-wrap: break-word;
         position: absolute;
         padding-left: 0;
+        padding-top: 8px;
         margin-left: 0;
-        max-width: 150px;
+        max-width: 130px;
         text-align: left;
       }
     .navbar-brand h1{
@@ -898,6 +983,7 @@ div #form-header{
         margin-left: 0;
         text-align: left;
         line-height: 1.01;
+        font-size: 12px;
       }
     #image1{
         margin-top: 50px;
@@ -946,7 +1032,7 @@ div #form-header{
     .panel-footer,#footer-right{
         text-align: center;
     }
-    #state-dropdown.col-md-2{
+    #state-dropdown.col-md-2, input#myFile{
         margin-top: 30px;
     }
     #about-box{
@@ -968,7 +1054,7 @@ div #form-header{
     #box3 #box3-1 p{
         font-size: 35px;
     }
-    #box3-2 p{
+    #box3-2 p, #box3-2 li, .management-staff p, .management-staff li{
         font-size: 18px;
     }
     #about-core-values h1{
@@ -1035,6 +1121,10 @@ div #form-header{
 
 
 @media (min-width:700px) and (max-width:767px){
+    div.row.careers{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
     #box4-2{
         padding: 15px 40px;
     }
@@ -1048,8 +1138,9 @@ div #form-header{
         word-wrap: break-word;
         position: absolute;
         padding-left: 0;
+        padding-top: 8px;
         margin-left: 0;
-        max-width: 150px;
+        max-width: 130px;
         text-align: left;
       }
     .navbar-brand h1{
@@ -1057,6 +1148,7 @@ div #form-header{
         margin-left: 0;
         text-align: left;
         line-height: 1.1;
+        font-size: 12px;
       }
     #client2-svg{
         width: 563.33px;
@@ -1103,8 +1195,8 @@ div #form-header{
         margin-left: auto;
         margin-right: auto;
     }
-    .brand-name{
-        font-size: medium;
+    #brand-name{
+        font-size: 18px;
     }
     #main-name{
         font-size: 35px;
@@ -1175,7 +1267,7 @@ div #form-header{
     #box3 #box3-1 p{
         font-size: 40px;
     }
-    #box3-2 p{
+    #box3-2 p, #box3-2 li, .management-staff p, .management-staff li{
         font-size: 20px;
     }
     #about-core-values h1{
@@ -1259,9 +1351,6 @@ div #form-header{
         margin-left: auto;
         margin-right: auto;
     }
-    .brand-name{
-        font-size:large;
-    }
     #main-name{
         font-size: 55px;
         padding-bottom: 20px;
@@ -1285,7 +1374,7 @@ div #form-header{
      #phone1, #footer-left a, #footer-middle p,#float{
         font-size: 10px;
     }
-    #state-dropdown.col-md-2{
+    #state-dropdown.col-md-2, input#myFile{
         margin-top: 50px;
     }
     form{
@@ -1310,15 +1399,16 @@ div #form-header{
     #box3 #box3-1 p{
         font-size: 35px;
     }
-    #box3-2 p{
+    #box3-2 p, .management-staff p{
         font-size: 20px;
         margin-top: 20px;
+        margin-right: 15px;
+    }
+    #box3-2 li, .management-staff li{
+        font-size: 20px;
     }
     #box3-1 h1, #box3-1 p{
         margin-left: 15px;
-    }
-    #box3-2 p{
-        margin-right: 15px;
     }
     #about-core-values h1{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -1398,9 +1488,6 @@ div #form-header{
         margin-left: auto;
         margin-right: auto;
     }
-    .brand-name{
-        font-size:25px;
-    }
     #main-name{
         font-size: 75px;
     }
@@ -1439,15 +1526,16 @@ div #form-header{
     #box3 #box3-1 p{
         font-size: 35px;
     }
-    #box3-2 p{
+    #box3-2 p, .management-staff p{
         font-size: 20px;
         margin-top: 20px;
+        margin-right: 15px;
+    }
+    #box3-2 li, .management-staff li{
+        font-size: 20px;
     }
     #box3-1 h1, #box3-1 p{
         margin-left: 15px;
-    }
-    #box3-2 p{
-        margin-right: 15px;
     }
     #about-core-values h1{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -1553,14 +1641,17 @@ div #form-header{
     #box3 #box3-1 p{
         font-size: 35px;
     }
-    #box3-2 p{
+    #box3-2 p, .management-staff p{
         font-size: 20px;
         margin-top: 20px;
+    }
+    #box3-2 li, .management-staff li{
+        font-size: 20px;
     }
     #box3-1 h1, #box3-1 p{
         margin-left: 25px;
     }
-    #box3-2 p{
+    #box3-2 p, #box3-2 li, .management-staff p, .management-staff li{
         margin-right: 25px;
     }
     #about-core-values h1{
